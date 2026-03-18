@@ -10,6 +10,7 @@ Find the password for the next level by logging into the `flag02` account.
 ```bash
 ls 
 ```
+A file named level02.pcap is present in our home directory.
 
 File is unreadable as is, we'll use tcpflow to format it into something we can analyze
 ```bash
