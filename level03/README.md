@@ -81,7 +81,7 @@ Dump of assembler code for function main:
    0x08048504 <+96>:	ret    
 ```
 
-What's the most interested is the first (and only) parameter of the system syscall, which is a string, we can simply look at it in memory
+What's the most interesting is the first (and only) parameter of the system syscall, which is a string, we can simply look at it in memory
 
 ```bash
 (gdb) x/s 0x80485e0
@@ -97,4 +97,4 @@ level03@SnowCrash:~$ ./level03
 Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
 ```
 
-getflag was execution with privileges, and thus we got easy access to the flag
+getflag was executed with privileges, and thus we got easy access to the flag
